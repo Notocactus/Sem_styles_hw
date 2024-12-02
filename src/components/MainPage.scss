@@ -1,0 +1,50 @@
+.Container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.GapSlider {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Stack {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+}
+
+.documentAccordion {
+    width: 100%;
+    &:hover {
+        border: 1px solid red;
+    }
+}
+
+// .documentAccordionEven {
+//     background-color: rgb(108, 106, 255);
+//     color: black;
+// }
+
+// .documentAccordionOdd {
+//     background-color: black;
+//     color: rgb(141, 137, 179);
+// }
+
+// .documentAccordion:nth-child(odd) {
+//     background-color: rgb(108, 106, 255);
+//     color: black;
+// }
+
+// .documentAccordion:nth-child(even) {
+//     background-color: black;
+//     color: rgb(141, 137, 179);
+// }
+
+.documentDetails::first-letter {
+    font-size: 20px;
+    color: red;
+}
